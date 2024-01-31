@@ -1,0 +1,4 @@
+image/large_2x.mp4 filter=lfs diff=lfs merge=lfs -text
+image/hero_iphone-15.jpg filter=lfs diff=lfs merge=lfs -text
+image/iphone15pro.jpg filter=lfs diff=lfs merge=lfs -text
+image/android-chrome-192x192.png filter=lfs diff=lfs merge=lfs -text
