@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="image/android-chrome-192x192.png" />
+    <link rel="icon" type="x-icon" href="image/android-chrome-192x192.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -74,7 +74,10 @@
     </div>
     <!--------------------watch series---------------------->
     <div class="iphone-15">
-      <video autoplay loop muted plays-inline src="image/large_2x.mp4"></video>
+      <video muted loop autoplay>
+        <source src="image/large_2x.mp4" type="video/mp4" />
+      </video>
+
       <div class="watch-series-9">
         <div class="watch-series-9-image">
           <img src="image/apple_watch_series_9.png" alt="" />
